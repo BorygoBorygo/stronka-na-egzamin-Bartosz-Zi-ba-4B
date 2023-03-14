@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>szablon podstawowy</title>
+    
+    
+
+    <style>
+
+
+
+
+header{
+    width: 100%;
+    position: relative;
+    height: 20vh;
+    background-color: #ddd;
+    
+
+
+}
+
+header div{
+    position: absolute;
+    top:10%;
+    left:30%;
+}
+
+
+main{
+    display: flex;
+    padding: 2%;
+}
+nav{
+    background-color:#c0c0c0 ;
+    padding: 15px;
+    height: 7%;
+    display: flex;
+    width: 100%;
+}
+nav a{
+   display: inline-block;
+   width: 12%;
+   text-decoration: none;
+   text-align: center;
+   border-right: 2px black solid;
+}
+
+nav a:last-child{
+    border-right: none;
+}
+
+
+   
+
+.footer{
+    display: flex;
+    justify-content: center;
+    border-top:  2px solid black;
+}
+.srodek{
+ 
+    
+}
+.linki a{
+    display: inline-block;
+    width: 100%;
+    padding: 5%;
+}
+
+.container{
+    border: 2px solid black;
+    padding: 5%;
+}
+gora{
+position: absolute;
+top:5%;
+left:15%;
+}
+a{
+    width: 12.5%;
+    text-align: center;
+    display: inline;
+    place-items: center;
+}
+.a{
+    border-left: 2px dotted black;
+}
+.srodek p{
+    border-top: 2px black solid;
+    padding
+
+}
+
+.lewa ul{
+    border: 2px solid black;
+}
+
+
+    </style>
+
+</head>
+<body>
+   
+    <header class="gora">
+        <img src="Przechwytywanie.PNG" alt="">
+       
+        <div>
+           
+        <h1>Enter Site Title</h1>
+        <h2>Enter site Slogan</h2>
+        </div>
+    </header>
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Contact</a>
+    <a href="#">Service</a>
+    <a href="#">Products</a>
+    <a href="#">Clients</a>
+    <a href="#">About</a>
+    <a href="#">Resources</a>
+    <a href="#">Extra</a>
+
+
+</nav>
+    
+   <main>
+    <section class="lewa">
+        <h3>Main menu</h3>
+    
+        <ul>
+
+        
+     <li>  <a href="#">Menu item</a></li> 
+        
+     <li><a href="#">Menu item</a></li> 
+     <li> <a href="#">Menu item</a></li> 
+     <li> <a href="#">Menu item</a></li> 
+     <li> <a href="#">Menu item</a></li> 
+     <li> <a href="#">Menu item</a></li> 
+     <li> <a href="#">Menu item</a></li> 
+     <li> <a href="#">Menu item</a></li> 
+     <li>  <a href="#">Menu item</a></li> 
+     <li> <a href="#">Menu item</a></li> 
+     <li> <a href="#">Menu item</a></li> 
+     <li> <a href="#">Menu item</a></li> 
+        
+        </li>
+    </ul>
+   
+        
+        <h3>Block</h3>
+        <div class="container">
+        <h5>Enter block content here</h5>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+            Rem, natus porro! Velit nesciunt nobis deserunt, 
+            itaque voluptas odit repellendus ab, eos,
+             rem beatae veritatis minus excepturi illo
+              placeat debitis blanditiis.
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+          
+        </p>
+        </div>
+
+      
+    </section>
+        <section class="srodek">
+            
+            <h5>Galerry</h5>
+            
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                . Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                 when an unknown printer took a galley of type and 
+                 scrambled it to make a type specimen book. It has 
+                 survived not only five centuries, but also the 
+                 leap into electronic typesetting, remaining e
+                 ssentially unchanged. It was popularised 
+                 in the 1960s with the release of Letrase
+                 t sheets containing
+                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                 Rem, natus porro! Velit nesciunt nobis deserunt, 
+                 itaque voluptas odit repellendus ab, eos,
+                  rem beatae veritatis minus excepturi illo
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                  Rem, natus porro! Velit nesciunt nobis deserunt, 
+                  itaque voluptas odit repellendus ab, eos,
+                   rem beatae veritatis minus excepturi illo
+                   Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                   . Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and 
+                    scrambled it to make a type specimen book. It has 
+                    survived not only five centuries, but also the 
+                    leap into electronic typesetting, remaining e
+                    ssentially unchanged. It was popularised 
+                    in the 1960s with the release of Letrase
+                    t sheets containing
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Rem, natus porro! Velit nesciunt nobis deserunt, 
+                    itaque voluptas odit repellendus ab, eos,
+                     rem beatae veritatis minus excepturi illo
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                     Rem, natus porro! Velit nesciunt nobis deserunt, 
+                     itaque voluptas odit repellendus ab, eos,
+                      rem beatae veritatis minus excepturi illo </p>
+                 <a href="#">read more</a>
+                 
+                 <p> rem beatae veritatis minus excepturi illo
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry
+                    . Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                     when an unknown printer took a galley of type and 
+                     scrambled it to make a type specimen book. It has 
+                     survived not only five centuries, but also the 
+                     leap into electronic typesetting, remaining e
+                     ssentially unchanged. It was popularised 
+                     in the 1960s with the release of Letrase
+                     t sheets containing
+                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                     Rem, natus porro! Velit nesciunt nobis deserunt, 
+                     itaque voluptas odit repellendus ab, eos,
+                      rem beatae veritatis minus excepturi illo
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                      Rem, natus porro! Velit nesciunt nobis deserunt, 
+                      itaque voluptas odit repellendus ab, eos,
+                       rem beatae veritatis minus excepturi illo</p>
+                 
+                 <ul>
+
+                    <li>oajaksbdaiwbdaiuwdhaiwdhaiuwhdaihd</li>
+                    <li>oaalsdkmawodaoiwdjaowdjoaiwdjoaiwdjo</li>
+                    <li>oalakwdoawdnoawdjoajwdoajowidjaowjdo</li>
+                    <li>oadakwndoadnoaiwndoawndoanwdonawodn</li>
+                    <li>oadawkdnawdnoaiwdnoanwdoanwdoa</li>
+                    <li>oadakwdnalwdnaowdnaoiwdnoaiwnd</li>
+                 </ul>
+        </section>
+
+    </main>
+        
+       
+
+
+        
+        
+
+        <footer class="footer">Copyright 2023.</footer>
+</body>
+</html>
